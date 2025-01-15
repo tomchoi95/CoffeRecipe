@@ -1,5 +1,5 @@
 //
-//  PageFive.swift
+//  PageFour.swift
 //  CoffeeRecipe
 //
 //  Created by 최범수 on 2025-01-15.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct PageFive: View {
+struct Favorite: View {
     var body: some View {
-        Text("5")
+        Text("4, World!")
     }
 }
 
 #Preview {
-    PageFive()
+    Favorite()
 }

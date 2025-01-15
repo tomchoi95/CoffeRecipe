@@ -6,13 +6,14 @@
 //
 
 import Foundation
+import SwiftUICore
 
-struct Coffee {
-    var id: String
+struct Coffee: Codable, Identifiable {
+    var id: UUID
     var name: String
     var image: String
     var description: String
-    
+
     var ingredients: String?
     var instructions: String?
     var rating: Double?

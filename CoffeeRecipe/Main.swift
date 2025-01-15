@@ -9,10 +9,12 @@ import SwiftUI
 
 struct Main: View {
     @State private var selection: Int = 1
+    @State var coffees = CoffeeData()
+    
     var body: some View {
         TabView (selection: $selection){
-            Tab("1번", systemImage: "01.circle.fill", value: 1) {
-                PageOne()
+            Tab("Recipes", systemImage: "cup.and.saucer.fill", value: 1) {
+                Recipe()
             }
             Tab("2번", systemImage: "02.circle.fill", value: 2) {
                 PageTwo()
@@ -20,11 +22,11 @@ struct Main: View {
             Tab("3번", systemImage: "03.circle.fill", value: 3) {
                 PageThree()
             }
-            Tab("4번", systemImage: "04.circle.fill", value: 4) {
-                PageFour()
+            Tab("Favorite", systemImage: "heart.circle", value: 4) {
+                Favorite()
             }
-            Tab("설정", systemImage: "gearshape", value: 5) {
-                PageFive()
+            Tab("My Page", systemImage: "gearshape", value: 5) {
+                MyPage()
             }
         }
     }

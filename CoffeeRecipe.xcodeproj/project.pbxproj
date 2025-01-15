@@ -10,9 +10,33 @@
 		B37723292D374559003B3CE1 /* CoffeeRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B373F5632D37D7E90023C87A /* Exceptions for "CoffeeRecipe" folder in "CoffeeRecipe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+			);
+			target = B37723282D374559003B3CE1 /* CoffeeRecipe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		B373F5642D37D7E90023C87A /* Exceptions for "CoffeeRecipe" folder in "Compile Sources" phase from "CoffeeRecipe" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = B37723252D374559003B3CE1 /* Sources */;
+			membershipExceptions = (
+				.gitignore,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B377232B2D374559003B3CE1 /* CoffeeRecipe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B373F5632D37D7E90023C87A /* Exceptions for "CoffeeRecipe" folder in "CoffeeRecipe" target */,
+				B373F5642D37D7E90023C87A /* Exceptions for "CoffeeRecipe" folder in "Compile Sources" phase from "CoffeeRecipe" target */,
+			);
 			path = CoffeeRecipe;
 			sourceTree = "<group>";
 		};

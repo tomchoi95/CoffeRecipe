@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Main: View {
     @State private var selection: Int = 1
     var body: some View {
         TabView (selection: $selection){
@@ -31,5 +31,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Main()
 }

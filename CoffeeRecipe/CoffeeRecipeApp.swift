@@ -12,7 +12,7 @@ import SwiftData
 struct CoffeeRecipeApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            
+            User.self, CoffeeModel.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -27,6 +27,6 @@ struct CoffeeRecipeApp: App {
         WindowGroup {
             MainView()
         }
-        .modelContainer(sharedModelContainer)
+//        .modelContainer(sharedModelContainer)
     }
 }
